@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D3947BC1EDFE7DC00A4F6C1 /* structsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3947BB1EDFE7DC00A4F6C1 /* structsEnums.swift */; };
 		6DDBC9061EDC9C1C0076ADA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBC9051EDC9C1C0076ADA9 /* AppDelegate.swift */; };
 		6DDBC9081EDC9C1C0076ADA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBC9071EDC9C1C0076ADA9 /* ViewController.swift */; };
 		6DDBC90B1EDC9C1C0076ADA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDBC9091EDC9C1C0076ADA9 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D3947BB1EDFE7DC00A4F6C1 /* structsEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = structsEnums.swift; sourceTree = "<group>"; };
 		6DDBC9021EDC9C1C0076ADA9 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDBC9051EDC9C1C0076ADA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DDBC9071EDC9C1C0076ADA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				6DDBC90C1EDC9C1C0076ADA9 /* Assets.xcassets */,
 				6DDBC90E1EDC9C1C0076ADA9 /* LaunchScreen.storyboard */,
 				6DDBC9111EDC9C1C0076ADA9 /* Info.plist */,
+				6D3947BB1EDFE7DC00A4F6C1 /* structsEnums.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3947BC1EDFE7DC00A4F6C1 /* structsEnums.swift in Sources */,
 				6DDBC9081EDC9C1C0076ADA9 /* ViewController.swift in Sources */,
 				6DDBC9061EDC9C1C0076ADA9 /* AppDelegate.swift in Sources */,
 			);
@@ -269,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.jasonbehnke.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -282,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.jasonbehnke.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -304,6 +310,7 @@
 				6DDBC9161EDC9C1C0076ADA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

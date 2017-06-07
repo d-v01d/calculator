@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Calculator
 //
-//  Created by Dev01d on 5/29/17.
-//  Copyright © 2017 dev01d. All rights reserved.
+//  Created by Jason Behnke on 5/29/17.
+//  Copyright © 2017 Jason Behnke. All rights reserved.
 //
 
 import UIKit
